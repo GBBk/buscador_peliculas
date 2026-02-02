@@ -1,0 +1,49 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: 10px;
+}
+
+.movies {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie h3, .movie p {
+  padding: 0;
+}
+
+.movie img {
+  border-radius: 8px;
+}
+
+.loading {
+  text-align: center;
+  height: 100vh;
+  font-size: 4rem;
+}
